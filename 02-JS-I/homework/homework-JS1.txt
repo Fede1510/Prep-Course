@@ -1,0 +1,19 @@
+1. Variables: 
+    Sirve para almacenar datos para uso posterior. Las hay de tres tipos: numeros, cadenas y booleanos.
+    Se usan las palabras reservadas var, const o bien let, siendo estas ultimas dos definidas en la ultima version de JS, con caracteristicas que veremos mas adelante
+    Los numeros se escriben directamente, las cadenas son textos encerrados en comillas (simples o dobles) y los booleanos (basados en que solo pueden valer 0 o 1) responden como true o false.
+
+2. Strings (o cadenas) son bloques de texto que se escriben encerrados en comillas (simples o dobles).
+
+3. Funciones (argumentos) return
+    Las funciones son tipos particulares de objetos que son "llamables" o sea se los puede invocar para que realicen la operacion que les fue asignada.
+    Los argumentos son las "variables" que se le pasan a las funciones sore las que deben realizar la operacion que les fue asignada.
+    Return es una declaracion, una palabra reservada de JS que devuelve el resultado de aplicar la funcion u operacion invocada. Es la unica forma de exteriorizar algo fuera de la funcion.
+
+4. Declaraciones if
+    Las declaraciones if permiten bifurcar los posibles resultados de una operacion, si se cumplen o no ciertas restricciones. Si se cumplen, la funcion sigue un camino, si no lo hace sigue otro, ambos declarados explicitamente.
+    Al cumplirse la restriccion, devolvera true, permitiendo se ejecute la primera opcion. En caso contrario devolvera false y permitira la ejecucion de la segunda opcion.
+
+5. Valores Booleanos
+    Son un tipo de datos utilizados para seguir la logica booleana, que solo permite dos opciones, 0 o 1, pasa o no pasa (corriente por ejemplo), true o false.
+    Se usan para resolver problemas de logica
