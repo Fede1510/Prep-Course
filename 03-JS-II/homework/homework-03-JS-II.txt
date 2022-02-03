@@ -1,0 +1,7 @@
+1. for: Es una función que opera en bucle, o sea comprueba si una condicion se cumple (la misma depende de una variable que se va incrementando en una unidad por bucle) y luego ejecuta una accion. Lo sigue haciendo mientras la condicion se cumpla, caso contrario se detiene.
+
+2. && Es el operador logico AND, y se asocia con variables que deben cumplir ciertas condiciones simultaneamente. Si todas son true, devuelve true, caso contrario, devuelve false.
+
+3. || Es el operador logico OR, y se asocia con variables que deben cumplir al menos una de ellas la condicion correspondiente, en cuyo caso devolvera true, y false en caso contrario.
+
+4. ! Es el operador logico NOT, u devuelve exactamente lo contrario de aquellos que se le asocia.
