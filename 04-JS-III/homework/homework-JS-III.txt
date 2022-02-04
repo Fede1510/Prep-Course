@@ -1,0 +1,4 @@
+1. Arrays:
+    Se puede pensar en los arrays (matrices o arreglos) como en contenedores de datos de distintos tipos y en la cantidad que se quiera.
+    Se definen facilmente declarando una variale que se iguala a unas raquets ([]), que representa una array vacio para luego ir llenandolo de diferentes tipos de datos, separados por coma.
+    Podemos agregar al array, separados por coma, tantos strings (cadenas) numeros o booleanos como querramos. 
