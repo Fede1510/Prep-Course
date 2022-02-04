@@ -1,0 +1,32 @@
+Escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+1. Objetos:
+    Son otra forma de contenedor de datos similar a las matrices en algunos aspectos y diferente en otros.
+    De hecho en JS, TODOS son objetos. Se definen o instancian con {} (este tipo de llaves). A diferencia de las matrices, no tiene indices, en su lugar tiene propiedades definidas por pares clave-valor.
+    Dentro de un objeto las claves (key) son todas distintas (unicas) pudiendo los valores de cualquiera de ellas ser iguales. Los valores de las claves pueden ser numeros, cadenas, booleanos, objetos o funciones.
+    Para acceder a sus propiedades se utilizan una de dos formas. Notacion con punto o con corchetes. 
+    Mediante notacion de puntos se invoca el ojeto seguido de punto y la clave de la propiedad buscada. Un ejemplo es la que ya conocemos length: objeto.length, ya que length es una propiedad pre-establecida de cualquier objeto
+    Mediante corchetes (al igual que en matrices) se invoca el objeto seguido de corchetes conteniendo la clave de la propiedad buscada.
+
+2. Propiedades
+    Los objetos son contenedores de un sin numero de propiedades de una sola cosa, Estas de definen por pares (key:value) que las identifican univocamente
+    Las Key de un objeto son unicas, aunque los valores asignados a diferetntes claves pueden ser iguales.
+
+3. Metodos:
+    Los valores asignados a un objeto que son funciones, se denominan metodos. Ya venimos utilizando metodos ya definidos para todas las funciones a priori, como .length, .push, .shift, etc.
+    Los metodos los invocamos usualmente mediante notacion de puntos y (dado que es una funcion) seguido de parentesis que contendran los argumentos que correspondan.
+
+4. Bucle 'for...in':
+    Al tratar con objetos que no tienen indices, no podemos usar el conocido mecanismo de iteracion 'for...' por lo que se definio otro bucle que permite recorre las propiedades de un objeto, invocando sus claves para otener sus correspondientes valores.
+    Su nomenclatura es for(key in objeto) usando la palara reservada in, que permitira recorrer todas las claves del objeto.
+
+5. Notacion de puntos vs notacion de corchetes:
+    Ambas son formas similares para mostrar los valores correspondientes a una determinada clave de un objeto.
+    hay solo algunos casos particulares donde debe usarse notacion de corchetes, ya que no seria posible usar notacion de puntos.
+    Como seria el caso de querer añadir una propiedad a un objeto que sólo puede aceptar un nombre de miembro literal, no un valor de variable que apunte a un nombre.
