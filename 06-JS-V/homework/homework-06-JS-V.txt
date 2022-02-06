@@ -1,0 +1,12 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+1. prototype
+2. Constructors (de Clases)
+
+1. Prototype: 
+    Una de las funciones que justifican la creacion de prototype, es la de economia de recursos, que que permite la asignacion de metodos comunes a la clase que pretende crearse,
+    para no tener que estar asignadolos en cada caso. Cuando se cream objetos de una nueva clase y luego se invoca algun metodo, el sistema primero verifica que la clase a la que pertenece el objeto posea ese metodo, y si no lo encuentra lo busca en su prototype, y asi sigue hasta el ultimo eslabon de la prototype chain.
+
+2. Constructors:
+    Estas son funciones que guardan la estructura y caracteristicas que queremos asignarle a una definida clase de objetos, y que luego, mediante la palara reservada NEW, nos permite "instanciar" objetos particulares pertenecientes a esa clase o "formato" pre-determinado.
+    En su creacion, se utiliza la palabra reservada "this" que permite que cada vez que se invoque la funcion constructora para crear un NEW object, el sistema entienda (en este particular contexto, ya que 'this' va a tener otras lecturas) que se esta haciendo referencia a el nuevo objeto creado.
+    
