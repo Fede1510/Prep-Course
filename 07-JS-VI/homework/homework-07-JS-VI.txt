@@ -1,0 +1,7 @@
+* Funciones Callback
+
+1. Funciones Callback:
+    El concepto esta basado en la propiedad declarada en JS de que las funciones son consideradas Funciones de primera clase.
+    Esto quiere que se comportan como el resto de los objetos. Se las puede pasar como argumentos de otras funciones. Y esto resulta muy importante en JS.
+    Se usa por convencion llamarlas cb. 
+    Hay metodos pre-establecidos en los arrays que utilizan este concepto de callack, como foreach, reduce y map. 
